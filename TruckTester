@@ -1,0 +1,26 @@
+public class TruckTester
+{
+	public static void main(String[] args)
+	{
+		//Call the default constructor
+		Truck truck1 = new Truck();
+		System.out.println(truck1);
+		
+		//Call constructor with 1 argument
+		Truck truck2 = new Truck(6);
+		System.out.println(truck2);
+		
+		//Call constructor with 2 arguments
+		Truck truck3 = new Truck(6, "Ford");
+		System.out.println(truck3);
+		
+		//Call constructor with 3 arguments
+		Truck truck4 = new Truck(6, "Ford", 1000);
+		System.out.println(truck4);
+		
+		//Call constructor with 4 arguments
+		Truck truck5 = new Truck(6, "Ford", 1000, 13000);
+		System.out.println(truck5);
+	}
+
+}
